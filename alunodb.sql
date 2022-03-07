@@ -1,0 +1,9 @@
+CREATE DATABASE aluno_db;
+USE aluno_db;
+
+CREATE TABLE aluno(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(150) NOT NULL,
+    email VARCHAR(150) NOT NULL
+);
+
